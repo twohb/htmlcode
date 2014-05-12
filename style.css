@@ -13,7 +13,7 @@ Using a "." with the class name will apply it to anything in its class
 }
 
 p {
-color: red;
+color: purple;
 
 }
 
@@ -28,4 +28,39 @@ p#What{
 
 .spanclass{
     color: black;
+}
+
+#container{
+    border: 1px solid black;
+    height: auto;
+    width: 700px;
+    position: relative;
+    margin: 0px auto;
+}
+
+#intro{
+    border: 1px solid black;
+    color: blue;
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    position: absolute
+    left: 10px;
+}
+
+#overview{
+    font-family: Times New Roman;
+    border: 1px solid black;
+    color: blue;
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+
+#motivation{
+    border: 1px solid black;
+    color: blue;
+    width: 100%;
+    height: auto;
+    background-color: red;
 }
